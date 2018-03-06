@@ -1,0 +1,1481 @@
+11 : 15 am tomorrow reminder,reminder.create_single_reminder,reminder.start_time->11 : 15 am;reminder.start_date->tomorrow;
+11:15 am tomorrow reminder,reminder.create_single_reminder,reminder.start_time->11:15 am;reminder.start_date->tomorrow;
+2 or 3 minutes to walk that block ?,None,
+271 timetable please,None,
+4 : 30 tue doc reminder,reminder.create_single_reminder,reminder.start_time->4 : 30;reminder.start_date->tue;reminder.reminder_text->doc;
+4:30 tue doc reminder,reminder.create_single_reminder,reminder.start_time->4:30;reminder.start_date->tue;reminder.reminder_text->doc;
+897 pancake house on Tuesday 1 : 00 pm please,Calendar.Create_Calendar_Entry,calendar.start_date->897;calendar.implicit_location->pancake house;calendar.start_time->1 : 00 pm;
+a chinese song for me please,None,
+A new note of name Business Solutions,note.create_note,note.title->Business Solutions;
+A new note please,note.create_note,
+A reminder to recall calling Carlos,reminder.create_single_reminder,reminder.reminder_text->recall calling Carlos;
+A yes from me,None,
+access phone settings and turn off speaker,communication.speakerphone_off,communication.audio_device_type->speaker;
+action games not nintendo please,None,
+activate bluetooth please,OnDevice.Settings.On,ondevice.setting_type->bluetooth;
+activate call forwarding,Communication_Forwarding_Enable,
+activate please,None,
+activate speaker phone,Communication_EnableSpeaker,communication.audio_device_type->speaker phone;
+activate star or hash key,communication.press_key,communication.key->star;
+add 2856589355 to contacts,AddContacts,
+Add a new event on 27 - Apr,Calendar.Create_Calendar_Entry,calendar.start_date->27;calendar.end_date->Apr;
+Add a new task finish assignment,None,
+add a task to wunderlist,None,
+Add an event to read about adam lambert news,None,
+Add an event to visit 209 Nashville Gym,Calendar.Create_Calendar_Entry,calendar.title->visit 209 Nashville Gym;
+add buy milk to wunderlist,None,
+Add Carolina to my contact list,AddContacts,
+add daily weight into fitbit,None,
+add Fred George to onenote,None,
+add friends to party list in memos,None,
+Add imax theater to my upcoming events,Calendar.Create_Calendar_Entry,calendar.title->imax theater;
+add item to onenote inbox,None,
+add joseph to phone contacts,AddContacts,
+add mark to guest list,note.create_note,note.title->mark to guest list;
+add mohit to contacts,AddContacts,
+add my current location as home,Places_AddFavourite,places.place_type->home;
+Add my wife to speed dial,communication.set_speeddial,communication.relationship_name->wife;
+add nickname dad to contact Max,Communication_AssignName,communication.relationship_name->dad;communication.contact_name->Max;
+add nickname mom to Carol Marco,Communication_AssignName,communication.relationship_name->mom;communication.contact_name->Carol Marco;
+add nickname of son,Communication_AssignName,communication.relationship_name->son;
+Add oatmeal to shopping list .,mystuff.find_my_stuff,mystuff.keyword->shopping list;
+add tasks to wunderlist,None,
+add this location to my favourite,Places_AddFavourite,
+add to fitbit diary,None,
+Add to my calender daddy daughter dance at meadowbrook,Calendar.Create_Calendar_Entry,calendar.title->daddy daughter dance;calendar.implicit_location->meadowbrook;
+add to wish - list computer ram,note.create_note,note.note_text->computer ram;
+add to wunderlist review notes from ibp,mystuff.find_my_stuff,mystuff.keyword->wunderlist review;mystuff.data_type->notes;
+add volume please,None,
+Add weight please,None,
+address to city of atlanta corrections,GetAddress,AbsoluteLocation->city of atlanta;places.place_type->corrections;
+affordable insurance Washington Ave Albany NY 12222 please,FindPlaces,places.place_name->affordable insurance;AbsoluteLocation->Washington Ave Albany NY 12222;
+Alright I am confirming,None,
+Am i free to be with friends saturday ?,Calendar.Check_availability,calendar.title->be with friends;calendar.start_date->saturday;
+Am i free to be with friends saturday?,Calendar.Check_availability,calendar.title->be with friends;calendar.start_date->saturday;
+am i set up for call forwarding right now ?,communication.forwarding_status,
+Andrew Carlos address lincoln nebraska,None,
+answer call with a text,Comunication_IgnoreIncoming,
+answer text from mom,communication.send_text,communication.from_relationship_name->mom;
+Answer the phone,Communication_AnswerPhone,
+answer using hands - free,Communication_AnswerPhone,communication.audio_device_type->hands - free;
+answer using hands-free,Communication_AnswerPhone,communication.audio_device_type->hands-free;
+any accidents today on 202,Places.Check_Accident,places.date->today;AbsoluteLocation->202;
+any birthdays next month i should know about ?,Calendar.Find_Calendar_Entry,calendar.title->birthdays;calendar.start_date->next month;
+any fast food places within 25 minutes of here,FindPlaces,places.cuisine->fast food;places.travel_time->within 25 minutes;
+any of my contacts online ?,None,
+Any suggestions for what to eat for dinner ?,None,
+application bar please,None,
+Appointment extension request,Calendar.Change_Calendar_Entry,
+Appointment with Johnson needs to be next week,Calendar.Change_Calendar_Entry,calendar.title->Appointment with Johnson;calendar.start_date->next week;
+are buses or trains running from the stadium at the end of the game ?,Places.Get_Public_Transport_Schedule,places.transportation_type->buses;places.from_place_type->stadium;
+are reservations accepted at any of the german restaurants around here ?,Places_CreateReservation,places.amenities->reservations accepted;places.cuisine->german;places.place_type->restaurants;places.nearby->around;
+are reservations available for The nearby Korean restaurant ?,Places_CreateReservation,places.amenities->reservations;places.nearby->nearby;places.cuisine->Korean;places.place_type->restaurant;
+Are steak houses requiring reservations ?,Places_CreateReservation,places.place_type->steak houses;places.amenities->reservations;
+Are there car accidents in springdale arkansas today ?,Places.Check_Accident,AbsoluteLocation->springdale arkansas;places.date->today;
+are you listening ?,None,
+are you listening to me,None,
+ask for hash key,communication.press_key,communication.key->hash key;
+aspen to Sopris Creek Rd please,GetRoute,places.from_absolute_location->aspen;AbsoluteLocation->Sopris Creek Rd;
+At grocery list add milk,note.create_note,note.title->grocery list;note.note_text->milk;
+avoid construction to new york prime,GetRoute,places.avoid_route->construction;places.place_name->new york prime;
+avoid tolls direct me to mcdonalds,GetRoute,places.avoid_route->tolls;places.place_name->mcdonalds;
+b forty nine bus map brooklyn,ShowMap,places.public_transportation_route->b forty nine;places.transportation_type->bus;AbsoluteLocation->brooklyn;
+bayonne yellow cab please,Places.Book_Public_Transport,AbsoluteLocation->bayonne;places.transportation_company->yellow cab;
+bbq near olympia wa Please,FindPlaces,places.cuisine->bbq;places.nearby->near;AbsoluteLocation->olympia wa;
+be quiet yes i need the news channel two,None,
+bend oregon exotic restaurants please,FindPlaces,AbsoluteLocation->bend oregon;places.atmosphere->exotic;places.place_type->restaurants;
+best breakfast by arden way please,None,
+bmw bellevue please,FindPlaces,places.product->bmw;AbsoluteLocation->bellevue;
+book 5 tickets city game,None,
+book 5 tickets for the city transit .,Places.Book_Public_Transport,places.transportation_type->city transit;
+Book amc theater pekin tickets,None,
+book an uber x to pick me up from the farmers market in olympia and take me to 795 E DRAGRAM TUCSON,Places.Book_Public_Transport,places.transportation_company->uber x;places.place_type->farmers market;AbsoluteLocation->olympia;
+Book dinner at KFC at eight pm,Calendar.Create_Calendar_Entry,calendar.title->dinner;calendar.implicit_location->KFC;calendar.start_time->eight pm;
+Book for me amc tickets,None,
+Book for me lana del rey tickets in west palm,None,
+Book for me tickets to lollapalooza in chicago,None,
+book me a seat on a bus leaving nyc to boston .,Places.Book_Public_Transport,places.transportation_type->bus;places.from_absolute_location->nyc;AbsoluteLocation->boston;
+book me a ticket for jurassic world,None,
+book me on an amtrak from here to dc,Places.Book_Public_Transport,places.transportation_company->amtrak;AbsoluteLocation->dc;
+book movie ticket near my location,None,
+Book the ride that is the cheapest .,Places.Book_Public_Transport,places.price_range->cheapest;
+book tickets for captain america,None,
+Book Uber Lux to LAX,Places.Book_Public_Transport,places.transportation_company->Uber Lux;places.place_name->LAX;
+boost headphones volume,None,
+boudoir photo shoot ballard,FindPlaces,places.service_provided->boudoir photo shoot;AbsoluteLocation->ballard;
+breakfast all day seattle,FindPlaces,places.amenities->breakfast all day;AbsoluteLocation->seattle;
+breakfast restaurants within ten miles of my location please,FindPlaces,places.meal_type->breakfast;places.place_type->restaurants;places.distance->within ten miles;
+burgers seafood late dinner ?,FindPlaces,places.cuisine->burgers seafood;places.meal_type->dinner;
+bus options from the space needle in seattle to the international district at 7pm,GetRoute,places.transportation_type->bus;places.from_place_name->space needle;AbsoluteLocation->seattle;places.time->7pm;
+bus timings for two forty six,Places.Get_Public_Transport_Schedule,places.transportation_type->bus;places.public_transportation_route->two forty six;
+buy 2 tickets for the louvre museum,None,
+buy 2 tickets to the seattle storm game at key arena this Monday,None,
+buy 4 tickets to the billy joel concert at safeco field,None,
+buy concert tickets for bill cosby,None,
+cafes near me please,FindPlaces,places.place_type->cafes;places.nearby->near;
+Calendar cancel Friday with Eddy,Calendar.Delete_Calendar_Entry,calendar.start_date->Friday;calendar.contact_name->Eddy;
+Calendar for november 1948,None,
+Call (206 ) 352-852,MakeCall,
+CALL 631-6541,MakeCall,communication.phone_number->631-6541;
+call a cab to go to camels back park on weekend,Places.Book_Public_Transport,places.transportation_type->cab;places.place_name->camels back park;places.date->weekend;
+call at and t company on speaker,Places.Make_call,places.place_name->at and t company;places.audio_device_type->speaker;
+call california pizza kitchen using skype,Places.Make_call,places.place_name->california pizza kitchen;places.source_platform->skype;
+call Candy mobile,MakeCall,communication.contact_name->Candy;communication.destination_platform->mobile;
+call Carlston tomorrow,MakeCall,communication.contact_name->Carlston;
+call cbk cell,MakeCall,communication.contact_name->cbk;communication.destination_platform->cell;
+Call dad Mike,MakeCall,communication.relationship_name->dad;communication.contact_name->Mike;
+call five on the skype,MakeCall,communication.speed_dial->five;communication.source_platform->skype;
+call forward home,Communication_Forwarding_Enable,communication.destination_platform->home;
+call forward off,Communication_Forwarding_Disable,
+call forward setting . thanks,communication.forwarding_status,
+call forwarding off,Communication_Forwarding_Disable,
+call forwarding on,Communication_Forwarding_Enable,
+call four two six seven nine one,MakeCall,communication.phone_number->four two six seven nine one;
+call Fred from my cell,MakeCall,communication.contact_name->Fred;communication.source_platform->cell;
+call Josh voicemail,communication.call_voice_mail,communication.contact_name->Josh;
+Call last number dialed,Communication_Redial,
+Call mamma,MakeCall,communication.relationship_name->mamma;
+call Manuel Cal,MakeCall,communication.contact_name->Manuel Cal;
+call Marry in thirty minutes,MakeCall,communication.contact_name->Marry;
+call Mike voicemail,communication.call_voice_mail,
+call Miranda at home,MakeCall,communication.contact_name->Miranda;communication.destination_platform->home;
+call pizza skype,Places.Make_call,places.source_platform->skype;
+call radioshack,Places.Make_call,places.place_name->radioshack;
+call redial,Communication_Redial,
+Call sally,MakeCall,communication.contact_name->sally;
+Call San Diego Zoo,Places.Make_call,places.place_name->San Diego Zoo;
+Call Seaport Village,MakeCall,communication.contact_name->Seaport Village;
+call voicemail using speakerphone,communication.call_voice_mail,communication.audio_device_type->speakerphone;
+caller is requesting i press 1,communication.press_key,
+can i add a name and a number to my contacts ?,Add_Communication,
+can i have my voicemail read to me ?,communication.call_voice_mail,
+can i have the phone number to ring virgin off a virgin landline,GetPhoneNumber,places.place_name->virgin;places.source_platform-><START places.place_name>virgin;
+Can I report a bug ?,None,
+Can I take amtrak 517 tukwila ?,GetRoute,places.transportation_company->amtrak;AbsoluteLocation->517 tukwila;
+can I take route 11 instead of 12 to Hampton ?,Places_Map_Question,places.prefer_route->route 11;places.avoid_route->12;AbsoluteLocation->Hampton;
+can I take route 42 instead of 41 to get to hampton,Places_Map_Question,places.prefer_route->route 42;AbsoluteLocation->41;
+Can I watch disney channel ?,None,
+Can Reservations be made at Fridays restaurants ?,Places_CreateReservation,places.amenities->Reservations;places.place_name->Fridays restaurants;
+can you add something to onenote,None,
+can you add to fitbit,None,
+can you answer me now ?,None,
+can you brighten the screen,None,
+Can you call the person I called last ?,Communication_Redial,
+can you cancel my Uber reservation ?,Places.Book_Public_Transport,places.transportation_company->Uber;
+Can you cancel the taxi for me,Places.Book_Public_Transport,
+can you change my reminder,reminder.change_reminder,
+can you check my voicemail,None,
+Can you clear MOM note ?,note.create_note,
+can you click next,None,
+Can you decrease the brightness to fifty,ondevice.open_setting,ondevice.setting_type->brightness;
+Can you delete my events this saturday ?,Calendar.Delete_Calendar_Entry,calendar.start_date->this saturday;
+Can you display the application bar,None,
+Can you display the context menu,None,
+Can you file a bug for me ?,None,
+Can you find a cozier restaurant in my location ?,FindPlaces,places.place_name->cozier restaurant;
+can you find me alternative routes,GetRoute,places.prefer_route->alternative;
+can you find me tickets to the seahawks game,None,
+can you find movie tickets,None,
+can you find the reminder that Jack turns twenty,reminder.find_reminder,reminder.reminder_text->Jack turns twenty;
+can you find the times for the metro bus one sixty nine,Places.Get_Public_Transport_Schedule,places.transportation_company->metro bus;places.public_transportation_route->one sixty nine;
+can you find tickets for lego land,None,
+Can you get how much weight I should loss to reach the ideal weight?,GetRoute,
+Can you give me a traffic report,Places_CheckTraffic,
+can you hear me,None,
+can you hear me ?,None,
+can you hear me?,None,
+can you help me book a restaurant ?,Places_CreateReservation,places.place_type->restaurant;
+can you help me here,None,
+Can you help me in pairing Bluetooth signal to phone,ondevice.open_setting,ondevice.setting_type->Bluetooth;
+Can you help me in the setup process,None,
+Can you help me?,None,
+Can you invite call of duty game ?,None,
+Can you invite friends in Call of duty party,None,
+can you locate my phone,None,
+can you log off,None,
+can you look up ironman ticket,None,
+can you lower my volume,None,
+Can you pair the wifi signal with the TV,None,
+Can you pause movies please,None,
+Can you play a comedy italian movie ?,None,
+can you please call Harry,MakeCall,
+can you please call Joseph,MakeCall,
+Can you please record situps,None,
+can you please resend my last text message ?,Comunication_Synthesis,
+can you read me the last email that came into the live downtown miami account august eleven,Comunication_Synthesis,communication.order_ref->last;communication.message_type->email;communication.source_platform->live downtown miami;communication.date->august eleven;
+can you read my email from Berry Chris,Comunication_Synthesis,communication.message_type->email;communication.from_contact_name->Berry Chris;
+Can you read the grocery list note please,note.read_aloud,note.title->grocery list;
+Can you record weight please,None,
+Can you record weight please ?,None,
+Can you restart for me?,None,
+Can you send an email to Keil Mark at gmail . com ? ?,SendEmail,communication.email_address->Keil Mark at gmail . com ?;
+Can you send invite to Keil to play Fifa 17,communication.send_text,communication.contact_name->Keil;communication.message->play Fifa 17;
+can you set a note up to mom,note.create_note,note.contact_name->mom;
+Can you set it up now ?,None,
+can you show me the application bar,None,
+can you show me the context menu,None,
+Can you show me the previous please ?,ondevice.skip_back,
+can you show me the remaining number of steps to hit my last record?,None,
+can you show ratings for the closest tgi fridays,places.get_star_rating,places.nearby->closest;places.place_name->tgi fridays;
+can you show the number of steps I should run to hit my last record ?,None,
+can you shut down my computer,None,
+can you switch to google maps,None,
+can you take a snapshot with my camera,None,
+Can you tell me how long will it take me to drive from my house to U District,Places_Ensure_TravelTime,places.transportation_type->drive;places.from_place_type->house;places.place_name->U District;
+Can you tell me how many calories I should take for dinner ?,None,
+Can you tell me how many kilometers to run in order to reach 20 kilometers running,None,
+Can you tell me how many steps I should run to hit my last record ?,None,
+Can you track my weight via a note?,note.create_note,
+Can you translate what is your name in Japanese ?,None,
+can you turn down the brightness,ondevice.open_setting,ondevice.setting_type->brightness;
+can you turn off call forward ?,Communication_Forwarding_Disable,
+Can you unmute the volume for me please,None,
+cancel,None,
+Cancel an event on the calendar,Calendar.Delete_Calendar_Entry,
+Cancel appointment,Calendar.Delete_Calendar_Entry,
+Cancel brawl,None,
+cancel expanse,None,
+cancel it,None,
+cancel my uber reservation,Places.cancel,places.transportation_company->uber;
+cancel navigation,None,
+cancel reminder for iced tea,reminder.delete_reminder,reminder.reminder_text->iced tea;
+cancel silent hours,OnDevice.Settings.Off,
+cancel speaker phone,communication.speakerphone_off,communication.audio_device_type->speaker phone;
+cancel the suv reservation,Places.cancel,
+cancel this song,ondevice.pause,
+Cancel Uber Black reservation to work,Places.Book_Public_Transport,places.transportation_company->Uber Black;places.place_type->work;
+cancel uber reservation for 5pm,Places.Book_Public_Transport,places.transportation_company->uber;places.time->5pm;
+cancel uber x I reserved,Places.cancel,places.transportation_company->uber x;
+Cancel Uber X reservation,Places.cancel,places.transportation_company->Uber X;
+change call to bluetooth,Communication_EnableSpeaker,communication.audio_device_type->bluetooth;
+change contact name from Marina to daughter,Communication_AssignName,communication.from_contact_name->Marina;communication.from_relationship_name->daughter;
+change current call to speakerphone,Communication_EnableSpeaker,communication.audio_device_type->speakerphone;
+change from speaker to no speaker talk,communication.speakerphone_off,communication.audio_device_type->speaker;communication.audio_device_type->speaker;
+change reminder,reminder.change_reminder,
+change reminder time,reminder.change_reminder,reminder.slot_attribute->time;
+Change station,None,
+change temperature to seventy two degrees,weather.weather_other,
+Change the meeting with Chris to 9 : 00 am,Calendar.Change_Calendar_Entry,calendar.title->meeting with Chris;calendar.start_time->9 : 00 am;
+Change the meeting with Chris to 9:00 am,Calendar.Change_Calendar_Entry,calendar.title->meeting with Chris;calendar.start_time->9:00 am;
+Change theme song,ondevice.open_setting,ondevice.setting_type->theme;
+cheap breakfast please,None,
+Check for me the nearest romantic cafe,FindPlaces,places.nearby->nearest;places.place_type->romantic cafe;
+Check for me the traffic jams,Places_CheckTraffic,
+check for seattle i-5 accident,Places.Check_Accident,AbsoluteLocation->seattle i-5;
+Check Friday at 9 am,Calendar.Find_Calendar_Entry,calendar.start_date->Friday;calendar.start_time->9 am;
+Check if I have time for a meeting tonight,Calendar.Find_Calendar_Entry,calendar.start_time->tonight;
+check my wifi status,ondevice.open_setting,ondevice.setting_type->wifi;
+check reviews for husqvarna weed wacker,places.get_reviews,places.product->husqvarna weed wacker;
+check reviews for IBS company,places.get_reviews,places.place_name->IBS company;
+Check the traffic for me at the nearby area,Places_CheckTraffic,places.nearby->nearby;
+Check the traffic to home,Places_CheckTraffic,places.place_type->home;
+check update,None,
+check wi fi please,ondevice.open_setting,ondevice.setting_type->wi fi;
+check wifi connection,ondevice.open_setting,ondevice.setting_type->wifi;
+check-in room three forty seven,None,
+chilis from work please,None,
+Choose place no. one,None,
+cilantro please,None,
+clear all items from the chores list .,None,
+clear all note from last tuesday .,mystuff.transform_my_stuff,mystuff.transform_action->clear;mystuff.data_type->note;mystuff.start_date->last tuesday;
+Clear for me all the dummy notes,mystuff.transform_my_stuff,mystuff.transform_action->Clear;mystuff.keyword->dummy;mystuff.data_type->notes;
+clear last note,mystuff.transform_my_stuff,mystuff.transform_action->clear;mystuff.order_ref->last;mystuff.data_type->note;
+clear my save notes,mystuff.transform_my_stuff,mystuff.transform_action->clear;mystuff.data_type->notes;
+Click for me on previous,None,
+Click on previous for me,None,
+click on the call button,MakeCall,
+close bing,None,
+close browser,None,
+close cortana,ondevice.ondevice_other,ondevice.app_name->cortana;
+close facebook,ondevice.ondevice_other,ondevice.app_name->facebook;
+Close game,None,
+close magnifier,ondevice.ondevice_other,ondevice.app_name->magnifier;
+close mail,ondevice.ondevice_other,ondevice.app_name->mail;
+close music player,ondevice.ondevice_other,ondevice.app_name->music player;
+coffee bar on please,None,
+color scheme change,ondevice.open_setting,ondevice.setting_type->color scheme;
+colored dumplings beijing please,None,
+compare the cheapest italian restaurants in my area .,FindPlaces,places.price_range->cheapest;places.cuisine->italian;places.place_type->restaurants;
+compose email to David with subject Hey,SendEmail,communication.contact_name->David;communication.message->Hey;
+Compose email to David with subject Hey .,SendEmail,communication.contact_name->David;communication.message->Hey;
+Conference Preparations subject in new email to Song and Hung,SendEmail,communication.contact_name->Song;
+connect to bluetooth,OnDevice.Settings.On,ondevice.setting_type->bluetooth;
+contact 5 call,MakeCall,communication.position_ref->5;
+contact option one,MakeCall,communication.position_ref->one;
+contacts please,None,
+context menu please,None,
+continue playing track,ondevice.resume,
+Continue watching,None,
+conversation hands - free,Communication_EnableSpeaker,communication.audio_device_type->hands - free;
+conversation hands-free,Communication_EnableSpeaker,communication.audio_device_type->hands-free;
+create a gmail,SendEmail,communication.destination_platform->gmail;
+create an appoinment with Mr. red on this Wednesday after 9:00 AM,Calendar.Create_Calendar_Entry,
+Create for me a note about Car Oil,note.create_note,note.note_text->Car Oil;
+create My Favorites note,note.create_note,note.title->Favorites;
+create note with notepad,note.create_note,
+create reminder,reminder.create_single_reminder,
+cross off shorts from my shopping list .,mystuff.find_my_stuff,mystuff.keyword->cross off shorts;
+cross off sugar from shopping list,None,
+cross out milk from the list,None,
+cross out vitamins from list,None,
+cross shampoo off my shopping list,None,
+current weather ?,Weather.CheckWeather,weather.time_range->current;
+Deactivate Bluetooth .,OnDevice.Settings.Off,ondevice.setting_type->Bluetooth;
+decrease brightness please,ondevice.open_setting,ondevice.setting_type->brightness;
+decrease the brightness,ondevice.open_setting,ondevice.setting_type->brightness;
+decrease the volume please,None,
+delete bananas from my shopping list,mystuff.transform_my_stuff,mystuff.transform_action->delete;mystuff.keyword->bananas;
+delete cat food from pet store list,reminder.delete_reminder,reminder.reminder_text->cat food;reminder.implicit_location->pet store;
+delete cookies from shopping list,mystuff.transform_my_stuff,mystuff.transform_action->delete;mystuff.keyword->cookies;
+Delete Insurance note please,mystuff.transform_my_stuff,mystuff.transform_action->Delete;mystuff.keyword->Insurance;mystuff.data_type->note;
+delete latest note,mystuff.transform_my_stuff,mystuff.transform_action->delete;mystuff.order_ref->latest;mystuff.data_type->note;
+DELETE LIBRARY LIST,mystuff.transform_my_stuff,mystuff.transform_action->DELETE;mystuff.keyword->LIBRARY LIST;
+delete meeting reminders,reminder.delete_reminder,reminder.reminder_text->meeting;
+delete milk from shopping list,mystuff.transform_my_stuff,mystuff.transform_action->delete;mystuff.keyword->milk;
+delete my ideas list,mystuff.transform_my_stuff,mystuff.transform_action->delete;mystuff.keyword->ideas list;
+Delete note: Summer Reading List.,mystuff.transform_my_stuff,mystuff.transform_action->Delete;mystuff.data_type->note;mystuff.keyword->Summer Reading List;
+delete poetry notes,mystuff.transform_my_stuff,mystuff.transform_action->delete;mystuff.keyword->poetry;mystuff.data_type->notes;
+delete reminder for class,reminder.delete_reminder,reminder.reminder_text->class;
+delete reminder twenty eight,reminder.delete_reminder,reminder.reminder_text->twenty eight;
+delete shorts from shopping list,mystuff.transform_my_stuff,mystuff.transform_action->delete;mystuff.keyword->shorts;
+delete surprise party reminder,reminder.delete_reminder,reminder.reminder_text->surprise party;
+Delete that and start again,None,
+Delete the note number two,mystuff.transform_my_stuff,mystuff.transform_action->Delete;mystuff.data_type->note;mystuff.keyword->number two;
+Delete the note of name Guest list,mystuff.transform_my_stuff,mystuff.transform_action->Delete;mystuff.data_type->note;mystuff.title->Guest list;
+delete the wallpaper design from my ideas list,mystuff.transform_my_stuff,mystuff.transform_action->delete;mystuff.keyword->wallpaper design;
+delete underwear on shopping list,mystuff.transform_my_stuff,mystuff.transform_action->delete;mystuff.keyword->shopping list;
+Dial 990-158-4567,MakeCall,communication.phone_number->990-158-4567;
+dial star eight nine,communication.press_key,communication.key->star eight nine;
+dim the display,ondevice.open_setting,ondevice.setting_type->display;
+directions driving to panera bread avoid construction,GetRoute,places.transportation_type->driving;places.place_name->panera bread;places.avoid_route->construction;
+directions to leavenworth snoqualmie pass,GetRoute,AbsoluteLocation->leavenworth;places.prefer_route->snoqualmie pass;
+disable data,OnDevice.Settings.Off,ondevice.setting_type->data;
+disable my call forwarding,Communication_Forwarding_Disable,
+Disconnect bluetooth .,OnDevice.Settings.Off,ondevice.setting_type->bluetooth;
+disconnect speaker,communication.speakerphone_off,communication.audio_device_type->speaker;
+Display a list of old american songs,None,
+Display a list of soft rock songs from the 90s .,mystuff.find_my_stuff,mystuff.keyword->list of soft rock;mystuff.data_type->songs;
+display all of the bakeries within 5 miles of us right now .,FindPlaces,places.place_type->bakeries;places.distance->within 5 miles;places.time->now;
+Display Cool movies please,None,
+display dog groomer reminder,reminder.find_reminder,reminder.reminder_text->dog groomer;
+Display Driving Directions to Freight House bypass construction please,GetRoute,places.transportation_type->Driving;places.place_name->Freight House;places.avoid_route->construction;
+display for me the application bar,None,
+display for me the context menu,Places_GetMenu,places.place_name->the context;
+Display for me the previous,ondevice.open_setting,
+Display good comedies please,None,
+Display I am happy in French,None,
+Display johnny depp movies,None,
+Display lego movie trailer,None,
+Display minecraft videos,None,
+display newest horror results,None,
+Display the 2k14 demo,None,
+Display the 3 star rating programs,None,
+display the cocktail menu at china pub,Places_GetMenu,places.product->cocktail;places.place_name->china pub;
+display the current call forwarding setting,communication.forwarding_status,
+display the fastest crossing across the sahara desert,FindPlaces,places.prefer_route->fastest;places.place_name->crossing;AbsoluteLocation->sahara desert;
+display the fastest way to san antonio from austin,GetRoute,places.prefer_route->fastest;AbsoluteLocation->san antonio;places.from_absolute_location->austin;
+Display the next message,communication.show_next,
+display the next note,note.show_next,
+Display the next note please,note.show_next,
+Display the number of calories to eat in breakfast,GetPhoneNumber,places.place_name->calories;places.meal_type->breakfast;
+Display the previous for me,ondevice.open_setting,
+Display the remaining kilometers to reach 15 kilometers run,GetDistance,
+display the spices section pricing,places.get_price_range,places.product->spices;
+Display the steps to walk in order to burn 200 calories,None,
+Display weekend plans,Calendar.Find_Calendar_Entry,calendar.start_date->weekend;
+distance from taco bell to my location,GetDistance,places.from_place_name->taco bell;
+do a pair bluetooth connection to my mobile phone,None,
+do all of my calls forward ?,communication.forwarding_status,
+do fl residents usually need ice scrapers,weather.check_weather_facts,weather.suitable_for->ice scrapers;
+Do I have anything on wednesday?,Calendar.Find_Calendar_Entry,calendar.start_date->wednesday;
+do it all over again ?,None,
+Do not call anyone right now,None,
+do not forward calls,Communication_Forwarding_Disable,
+do not read the text right now,Comunication_IgnoreIncoming,
+do not worry about this message,Comunication_IgnoreIncoming,
+Do pause please,ondevice.pause,
+do pausing please,None,
+Do resuming for the current playing music,ondevice.resume,
+Do setup for me,None,
+Do you mean I should take 245 bus route map in bellevue ?,None,
+Does tio tonys deliver,None,
+does vta bus go past willow street pizza,Places_Map_Question,places.transportation_company->vta;places.transportation_type->bus;places.place_name->willow street pizza;
+does wild ginger bellevue exist within five miles ?,Places_Map_Question,places.place_name->wild ginger;AbsoluteLocation->bellevue;places.distance->within five miles;
+dog friendly hotel shasta california,FindPlaces,places.atmosphere->dog friendly;places.place_type->hotel;AbsoluteLocation->shasta california;
+Drive me to the fast one,GetRoute,places.transportation_type->Drive;
+drive to chilis avoiding tolls,GetRoute,places.transportation_type->drive;places.place_name->chilis;places.avoid_route->tolls;
+dsw shoes 7804 on Monday 3 : 00 pm,Calendar.Create_Calendar_Entry,calendar.title->dsw shoes 7804;calendar.start_date->Monday;calendar.start_time->3 : 00 pm;
+dunmore pa sonic sounds Friday morning please,None,
+edit settings .,ondevice.open_setting,
+Edit the meeting to be 7:30 not 8:30,Calendar.Change_Calendar_Entry,calendar.start_time->7:30;calendar.original_start_time->8:30;
+email Andy Check,SendEmail,communication.from_contact_name->Andy Check;
+email cloney John,SendEmail,communication.contact_name->cloney John;
+Email Henry Matthew,SendEmail,communication.contact_name->Henry Matthew;
+email Max about n l p,None,
+email Morris trip itinerary,SendEmail,communication.contact_name->Morris;communication.message->trip itinerary;
+email pictures,communication.communication_other,
+Email robert hello,SendEmail,communication.contact_name->robert;communication.message->hello;
+email to mike waters mike that dinner last week was splendid,SendEmail,
+emission test Bellevue please,FindPlaces,places.service_provided->emission test;AbsoluteLocation->Bellevue;
+enable speed dial 4,communication.set_speeddial,communication.speed_dial->4;
+end speaker phone,communication.speakerphone_off,communication.audio_device_type->speaker phone;
+english tv please,None,
+enter weight 185 at fitbit,None,
+epic games please,None,
+Extend lunch meeting 30 minutes extra,Calendar.Change_Calendar_Entry,calendar.title->lunch meeting;calendar.duration->30 minutes extra;
+extend reminder,reminder.change_reminder,
+facebook Candy Bell,None,
+facebook log in,None,
+facebook message Greg,None,
+family games with donkey kong please,None,
+fast forward to two minutes,None,
+fatima luas stop dublin please,None,
+ferry schedule please,None,
+file a bug please,None,
+Filing a bug please,None,
+find 2 tickets to the steven tyler show in seattle,None,
+find a hospital within close proximity,FindPlaces,places.place_type->hospital;places.distance->within close proximity;
+Find action flicks or Hugh Jackman movies,None,
+find closest family restaurant,FindPlaces,places.nearby->closest;places.atmosphere->family;places.place_type->restaurant;
+find directions from work to home,GetRoute,places.from_place_type->work;places.place_type->home;
+Find for me a luxurious restaurant,FindPlaces,places.atmosphere->luxurious;places.place_type->restaurant;
+Find for me Jack Robert from Florida beach,FindPlaces,places.place_name->Jack Robert;places.from_absolute_location->Florida beach;
+find for me pacific science center imax showing time,FindPlaces,places.place_name->pacific science center imax;
+Find for me recipe apps,None,
+find harvard crimson next game tickets,None,
+find hindi music,None,
+find hotels in indore,FindPlaces,
+find me a few mmo rpg games,None,
+find me a good restaurant for lunch,FindPlaces,places.rating->good;places.place_type->restaurant;places.meal_type->lunch;
+Find me all alternative rock by smashing pumpkins,None,
+find me the burger house that is open on friday eve .,FindPlaces,places.place_type->burger house;places.open_status->open;places.date->friday;places.time->eve;
+find me the cheapest taxi near me,Places.Book_Public_Transport,places.price_range->cheapest;places.service_provided->taxi;places.nearby->near;
+find me tickets for deftones at pnc,None,
+find music store within one block,FindPlaces,places.place_type->music store;places.distance->within one block;
+find my phone,ondevice.open_setting,ondevice.setting_type->find my phone;
+Find my phone if you please,ondevice.open_setting,
+find my sim card,None,
+Find my taxi .,Places.Book_Public_Transport,places.transportation_type->taxi;
+find my xbox,None,
+find previous calls,communication.communication_other,
+Find R Kelly dance songs Locate Greatest Hits by Toni Braxton,PlayMusic,Artist_Name->R Kelly dance;
+find redmond ridge golf,FindPlaces,places.place_name->redmond ridge golf;
+find rock dance,FindPlaces,places.service_provided->rock dance;
+find Rosaline Keil,None,
+find schools in indore,FindPlaces,places.place_type->schools;AbsoluteLocation->indore;
+Find some French movies for me please,None,
+find some german rock music that was done in the 80s,None,
+Find some indian old movies,None,
+find speed metal,FindPlaces,places.place_name->speed metal;
+find Suzan,None,
+find the discovery channel,None,
+find the distance from New Zealand to Seattle,GetDistance,
+find tickets for toto in huber heights ohio,FindPlaces,places.product->toto;AbsoluteLocation->huber heights ohio;
+Find Tyndall no.,None,
+finished please,None,
+fish pond off please,None,
+five oh two bus schedule new jersey transit,Places.Get_Public_Transport_Schedule,places.public_transportation_route->five oh two;places.transportation_company->new jersey transit;
+Flag new email to Emily,SendEmail,communication.message_category->Flag;communication.contact_name->Emily;
+flagship cinemas waterville maine showtimes,None,
+forecast in celcius,Weather.CheckWeather,weather.temperature_unit->celcius;
+forward all calls to Kate Paul,Communication_Forwarding_Enable,communication.contact_name->Kate Paul;
+forward my calls,Communication_Forwarding_Enable,
+free documentaries,None,
+free sport,None,
+Free time this afternoon please,Calendar.Check_availability,calendar.start_time->this afternoon;
+fremont korean bbq please,FindPlaces,AbsoluteLocation->fremont;places.place_type->korean bbq;
+From lax to disneyland please,None,
+futuristic racing games please,None,
+gas stations within a block out loud,FindPlaces,places.place_type->gas stations;places.distance->within a block;
+Get directions to uniondale high school,GetRoute,places.place_name->uniondale high school;
+Get florence temperature in september,weather.check_weather_facts,weather.absolute_location->florence;weather.date_range->september;
+Get for me a list of fun places at seattle,FindPlaces,places.atmosphere->fun;AbsoluteLocation->seattle;
+Get for me a list of german movies,None,
+Get for me intellivision roms itv,None,
+get for me rilo eagle street address,GetAddress,
+Get for me the price of visiting tobin bridge boston toll,None,
+get for me the starbucks rating,places.get_star_rating,places.place_name->starbucks;
+get game tickets,None,
+get me a taxi,Places.Book_Public_Transport,places.transportation_type->taxi;
+get me an uberx,Places.Book_Public_Transport,places.transportation_company->uberx;
+get me tapestry or songs by carole king,PlayMusic,Song_Name->tapestry;Artist_Name->carole king;
+get me the voicemail,communication.call_voice_mail,
+get out of the call,communication.start_over,
+Get the daily temperature greenwood indiana,weather.check_weather_facts,weather.date_range->daily;weather.absolute_location->greenwood indiana;
+Get the forcast for me,Weather.CheckWeather,
+Get the route to quilala,GetRoute,places.place_name->quilala;
+Get the route to shirley,GetRoute,AbsoluteLocation->shirley;
+get tickets for expendables three,None,
+get white shirts while in the mall later afternoon,reminder.create_single_reminder,reminder.reminder_text->get white shirts;reminder.implicit_location->mall;reminder.start_time->afternoon;
+Give me a list of the best family restaurants in town.,FindPlaces,places.rating->best;places.atmosphere->family;places.place_type->restaurants;
+give me my phone messages,communication.call_voice_mail,
+go ahead and answer,None,
+go at home,None,
+go back,None,
+Go back .,None,
+go back . try again . go back,None,
+go back a page,None,
+go back on music player,None,
+Go back please,None,
+Go back stop listening,None,
+go back to amazon,None,
+Go back to google please,None,
+go back to my contacts,communication.find_contact,
+go back to number one,None,
+go back to the beginning,None,
+go back to the main menu,None,
+go home,GetRoute,places.place_type->home;
+Go Next,None,
+go on . go back,None,
+Go to channel 10,None,
+go to channel one,None,
+go to home,GetRoute,places.place_type->home;
+go to previous screen,ondevice.open_setting,
+go to previous text,Communication_ShowPrevious,
+go to sleep,None,
+go to start,ondevice.open_setting,ondevice.setting_type->start;
+go to the next message,communication.show_next,
+go to the next note please,note.show_next,
+Go to the previous artist,ondevice.skip_back,
+Go to TV please,None,
+good I am confirming,None,
+google sign in,None,
+great barbecue kansas city please,None,
+great florist lynnwood,FindPlaces,places.place_name->great florist;AbsoluteLocation->lynnwood;
+Guide me to the best drugstore matte foundation,GetRoute,places.rating->best;places.place_type->drugstore;AbsoluteLocation->matte foundation;
+Guide me to the best mexican restaurant in this current area,GetRoute,places.rating->best;places.cuisine->mexican;places.place_type->restaurant;
+Guide me to the cheapest gas within 5 miles,GetRoute,places.price_range->cheapest;places.product->gas;places.distance->within 5 miles;
+hakuna matata hakuna resume you bastard,ondevice.resume,Song_Name->hakuna matata;
+halt music please,ondevice.pause,
+hd sport,None,
+hello can you hear me,None,
+hello what can you do,None,
+help me,None,
+Help me in clearing the shopping note,None,
+Help me in finding a romantic restaurant by the sea shore,FindPlaces,places.atmosphere->romantic;places.place_type->restaurant;places.prefer_route->sea shore;
+Help me in quitting this party now,None,
+Help me in rescheduling my calender,None,
+help me please,None,
+Help me to display the app bar,None,
+Help me to display the context menu,Places_GetMenu,
+help me to start,None,
+help me to understand more please,None,
+help me with this,None,
+Help please,None,
+help with my device please,None,
+hermosillo sonora to obreg? sonora,None,
+hollywood tavern woodinville reservation,Places_CreateReservation,places.place_name->hollywood tavern;AbsoluteLocation->woodinville;places.amenities->reservation;
+holomap stockholm metro (3d map) please,None,
+home improvement store 10 minutes from home,FindPlaces,places.from_place_type->home;places.travel_time->10 minutes;places.from_place_type->home;
+home to arbys please,None,
+horseshoe indiana reservations,Places_CreateReservation,places.place_name->horseshoe;AbsoluteLocation->indiana;
+hot restaurants please,None,
+how about now can you hear me,None,
+how can i avoid construction and get to burger king in 20 minutes,GetRoute,places.avoid_route->construction;places.place_name->burger king;places.travel_time->20 minutes;
+How can I clear my notes,None,
+how do i change the phone number for Jack ? ?,GetPhoneNumber,places.place_name->Jack ?;
+how do i erase reminders ?,reminder.delete_reminder,
+how do i erase reminders?,reminder.delete_reminder,
+how do i get home from here without taking i-forty four,GetRoute,places.place_type->home;places.from_nearby->here;places.avoid_route->i-forty four;
+how do you say how are you in french ?,None,
+how far away is my uber,GetDistance,places.transportation_company->uber;
+how far is gainesville from here,GetDistance,AbsoluteLocation->gainesville;places.from_nearby->from here;
+how far is orlando from new york,GetDistance,AbsoluteLocation->orlando;places.from_absolute_location->new york;
+How I can quit the party ?,None,
+how is my wifi connection,ondevice.open_setting,ondevice.setting_type->wifi;
+How is the weather in Newyork,Weather.CheckWeather,
+how late is taco bell open tonight ?,GetHours,places.place_name->taco bell;places.open_status->open;places.time->tonight;
+how late is the Uber Black going to be ?,GetHours,places.transportation_company->Uber Black;
+how long is this train going to take,Places_Ensure_TravelTime,places.transportation_type->train;
+How long till pick up,None,
+how long wait for taxi ?,None,
+How many calories for lunch please ?,None,
+How many days are there between March 13th 2015 and today?,None,
+how many fitbit pushups should i do tomorrow?,None,
+how many steps in one kilometer run ?,None,
+how many steps until i hit my fitbit goal ?,None,
+how many steps until i hit my fitbit goal?,None,
+how much battery do i have left,None,
+how much battery left now ?,None,
+how much battery now,None,
+how much going to take before the driver arrive ?,None,
+how much rain does chambersburg get a year,weather.check_weather_facts,weather.weather_condition->rain;weather.absolute_location->chambersburg;weather.date_range->a year;
+How soon will Jack be free?,Calendar.Check_availability,calendar.contact_name->Jack;
+how to deactivate narrator on windows phone,None,
+How to leave the garage ?,None,
+I am at liquor store - beer,FindPlaces,places.place_name->liquor store - beer;
+I am confirming keeping all items on lists,None,
+I am done .,None,
+I choose toyota to visit,None,
+I chose place number two,None,
+I have to tell you that I eat a chocolate bar of 500 Kcal,None,
+i need a taxi for 10am,Places.Book_Public_Transport,places.transportation_type->taxi;places.time->10am;
+I need an ATM in 30 minutes driving time .,FindPlaces,places.amenities->ATM;places.travel_time->30 minutes;places.transportation_type->driving;
+i need at and t s eight hundred number for customer service,GetPhoneNumber,places.place_name->at and t;places.service_provided->customer service;
+i need hands - free now,Communication_EnableSpeaker,communication.audio_device_type->hands - free;
+I need help,None,
+I need to begin over and restart,None,
+I need to cancel my uber,Places.Book_Public_Transport,places.transportation_company->uber;
+i need to go back,None,
+i need to go to usaa dot com,None,
+I need to unmute the volume now,None,
+i need your help,None,
+I need your help displaying I am fine thanks in Arabic,None,
+i now weigh 162 pounds record that please,None,
+I want 3 tickets for life of pi,None,
+I want a romantic restaurant for my newly married friends,FindPlaces,places.atmosphere->romantic;places.place_type->restaurant;
+i want that song to be repeated,ondevice.repeat,
+I want the free downloads to be displayed,None,
+I want to book a ticket to highest education center,None,
+i want to book tickets for american airlines arena,None,
+i want to book tickets for at,None,
+I want to book wembley stadium tickets,None,
+i want to buy nick jonas tickets,None,
+I want to cancel,None,
+I want to catch bus number 4 route,Places.Get_Public_Transport_Schedule,places.transportation_type->bus;places.public_transportation_route->4;
+I want to catch bus route twelve tamu,Places.Get_Public_Transport_Schedule,places.transportation_type->bus;places.public_transportation_route->twelve;places.transportation_company->tamu;
+I want to display the application bar,None,
+I want to display the context menu,Places_GetMenu,
+I want to display the previous message,communication.communication_other,
+I want to display the previous place please,ondevice.open_setting,
+I want to do restart,None,
+I want to file a bug,None,
+I want to find out the location of my taxi .,FindPlaces,places.transportation_type->taxi;
+I want to give my sister a nickname in the contacts,Communication_AssignName,communication.relationship_name->sister;
+i want to go back,None,
+I want to go to a cultural theatre tonight,None,
+I want to install OS setup,None,
+I want to make my ride by translink,None,
+I want to pair the bluetooth signal to headphones,ondevice.open_setting,ondevice.setting_type->bluetooth;
+I want to pair wifi signal to phone,ondevice.open_setting,ondevice.setting_type->wifi;
+I want to quit fifa party,None,
+I want to record the workout notes,note.create_note,note.title->workout;
+I want to redial that number,Communication_Redial,
+I want to reschedule the meeting at the air force club,None,
+I want to see a comedy theatre next weekend,None,
+i want to see a concert in kitchener,None,
+i want to see movies by john wayne,None,
+I want to setup the windows right now,None,
+I want to take bus 240,Places.Get_Public_Transport_Schedule,places.transportation_type->bus;places.public_transportation_route->240;
+I want to unmute the music,PlayMusic,
+i want to use the speaker,Communication_EnableSpeaker,communication.audio_device_type->speaker;
+I want to visit afghan cuisine,FindPlaces,places.place_name->afghan cuisine;
+i want to watch a metallica concert,None,
+i want to watch a show from nbc,None,
+I want to watch cosmos tv series 2014,None,
+I want to watch Fox sports channel,None,
+I want to watch hindi series,None,
+I want to watch the football match,None,
+I want to you to help me in displaying the application bar,None,
+I want to you to help me in displaying the context menu,None,
+I want you to read this note loudly,note.read_aloud,
+i went to the gym today,None,
+I will choose the first restaurant result,None,
+I will not visit the Musee du Louvre,None,
+I will play Call of duty game invite my friends,None,
+I would like to see the speed dial list,communication.query_speeddial,
+ice skating bellevue please,FindPlaces,places.service_provided->ice skating;AbsoluteLocation->bellevue;
+If you please add more,None,
+If you please record weight 158,None,
+If you please turn to previous,None,
+If you would please turn to previous,None,
+ignore all of the calls,Comunication_IgnoreIncoming,
+ignore all text messages from now on,Comunication_IgnoreIncoming,
+illuminate please,None,
+increase brightness please,ondevice.open_setting,ondevice.setting_type->brightness;
+increase brightness to one hundred percent,ondevice.open_setting,ondevice.setting_type->brightness;
+increase the ringer volume on my phone to thirty,None,
+Increase the volume to max,None,
+Invite Mark Paul to party chat,None,
+Is atlanta perm processing center closed today ?,None,
+is Berry on IM right now ?,None,
+is bistro buffy,Places_GetMenu,places.place_name->bistro;places.amenities->buffy;
+is call forwarding on or off ?,communication.forwarding_status,
+Is it better to take 234 bus kirkland ?,Places.Get_Public_Transport_Schedule,places.public_transportation_route->234;places.transportation_type->bus;AbsoluteLocation->kirkland;
+is Kale online ?,None,
+Is Kate online ?,None,
+Is Keil available tomorrow?,Calendar.Check_availability,calendar.contact_name->Keil;calendar.start_date->tomorrow;
+is Martha available ?,None,
+is my wifi on,ondevice.open_setting,ondevice.setting_type->wifi;
+Is Nora available ?,None,
+Is Paul online ?,None,
+Is Pizza hut requiring reservation ?,GetHours,places.place_name->Pizza hut;places.amenities->requiring reservation;
+is target open today,GetHours,places.place_name->target;places.open_status->open;places.date->today;
+Is the distance betwee the zoo and my current location thirteen miles ?,GetDistance,places.place_type->zoo;
+is the wifi disabled,None,
+Is there any accidents at my location ?,Places.Check_Accident,
+is there any road closures,None,
+Is there anything interesting on television ?,None,
+is time in seattle around 5:00 PM,GetTime,
+Is traffic cleared up ?,Places_CheckTraffic,
+italian movies please,None,
+jacks to joints layer,None,
+jump to previous song,ondevice.skip_back,
+just go to sleep,None,
+kids movies,None,
+kids sport,None,
+kids video,None,
+kirkland roofing Company please,FindPlaces,places.place_name->kirkland roofing Company;
+lana del rey tickets in west palm,None,
+launch bing.com,None,
+launch calendar,None,
+launch minecraft,None,
+launch movie app,None,
+launch wag.com,None,
+Leave party please,None,
+Leave the Destiny party please,None,
+Let it finished please,None,
+let me answer by hands - free,Communication_EnableSpeaker,communication.audio_device_type->hands - free;
+Let me check the previous item please,None,
+Let me check the previous one,None,
+let me go next please,None,
+Let me increase the brightness,ondevice.open_setting,ondevice.setting_type->brightness;
+Let me know how many kilograms to loss to be in the ideal weight?,None,
+Let me know the number of steps I walked today,None,
+Let me know what does the word Expensive mean in German,None,
+Let me leave the party right now,None,
+let me navigate to whentowork.com,None,
+Let me report this bug,None,
+Let me see the application bar,None,
+Let me see the context menu,Places_GetMenu,places.meal_type->context;
+Let me set a note up to Marco,note.create_note,note.note_text->up to Marco;
+Let me start it again from scratch,None,
+Let me unmute the sound please,None,
+Let me watch a popular Japanese drama,None,
+Let me watch CNN,None,
+Let me watch the latest movie in the theaters,None,
+Let me watch this channel,None,
+lets send a message to Kiel the subject is .. tomorrow meeting .,SendEmail,communication.contact_name->Kiel;communication.message->tomorrow meeting;
+lights off,OnDevice.Settings.Lights.Off,
+list of speed dials,None,
+List places to bring my food home from near my house,FindPlaces,places.amenities->bring my food home;places.from_nearby->near;places.place_type->house;
+List the top rated Japanese movies,None,
+living room lamps off please,None,
+locate best breakfast sarasota,FindPlaces,places.rating->best;places.meal_type->breakfast;AbsoluteLocation->sarasota;
+locate meeting with Maria this week for me,Calendar.Find_Calendar_Entry,calendar.title->meeting with Maria;calendar.start_date->this week;
+lock a screen,None,
+lock screen,ondevice.open_setting,ondevice.setting_type->lock screen;
+lock the doors for me please,None,
+log exercise notes please,None,
+log in to microsoft,None,
+Log into LinkedIn .,None,
+Log my weight in a note please,None,
+log off,None,
+log off computer,None,
+log off my phone,None,
+log on to twitter,None,
+log onto excel,None,
+log out,None,
+log out facebook,None,
+log out of skype,None,
+log situps please,None,
+log strength please,None,
+log weight 253 . 5 please,None,
+log weight please,None,
+login please,None,
+logout of facebook,None,
+london to maidenhead,None,
+look for an uber black to mighty-o donuts,Places.Book_Public_Transport,places.transportation_company->uber black;places.place_name->mighty-o donuts;
+look up an address for Mark stewart in Wisconsin,None,
+louder if you please,None,
+lower my brightness,ondevice.open_setting,ondevice.setting_type->brightness;
+lower screen brightness,ondevice.open_setting,ondevice.setting_type->brightness;
+lower the brightness,ondevice.open_setting,ondevice.setting_type->brightness;
+lower the volume by one,None,
+make a new email for Maggie with the title Open Now .,SendEmail,communication.contact_name->Maggie;communication.email_subject->Open Now;
+Make a room reservation with sea view,None,
+make an appointment at sun tan city,Calendar.Create_Calendar_Entry,calendar.implicit_location->sun tan city;
+Make camera 1 off please,None,
+Make dinner plans at restaurant at 8pm .,Calendar.Create_Calendar_Entry,calendar.title->dinner;calendar.implicit_location->restaurant;calendar.start_time->8pm;
+make my phone ring,None,
+make some coffee,FindPlaces,places.product->coffee;
+Make the brightness high please,ondevice.open_setting,ondevice.setting_type->brightness;
+Make the brightness low,ondevice.open_setting,ondevice.setting_type->brightness;
+make the screen brighter,ondevice.open_setting,
+Make this louder,None,
+mark all email messages as read,communication.communication_other,communication.message_type->email;communication.message_category->read;
+mark off cheese on shopping list,note.create_note,note.note_text->mark off cheese;note.title->shopping list;
+mark state parks as favorite,None,
+Marketing meetings on Tuesdays will now be every Wednesday please change on my calendar,Calendar.Change_Calendar_Entry,calendar.title->Marketing meetings;calendar.original_start_date->Tuesdays;calendar.start_date->every Wednesday;
+Meet Kiel at hallmark cards 405 Saturday 2 : 00 pm,Calendar.Create_Calendar_Entry,calendar.title->Meet Kiel;calendar.implicit_location->hallmark cards;calendar.start_date->405 Saturday;calendar.start_time->2 : 00 pm;
+Meeting adjustment,Calendar.Change_Calendar_Entry,
+Meeting My Manager,None,
+middlesboro kentucky to paducah kentucky,GetRoute,places.from_absolute_location->middlesboro kentucky;AbsoluteLocation->paducah kentucky;
+modify my reminder,reminder.change_reminder,
+More info about the traffic here,Places_CheckTraffic,
+more restaurant options within a twenty mile radius,FindPlaces,places.place_type->restaurant;places.distance->within a twenty mile radius;
+move back one track,ondevice.skip_back,
+move on and show me the next,None,
+Move the BBQ party to Friday,Calendar.Change_Calendar_Entry,calendar.title->BBQ party;calendar.start_date->Friday;
+music command skip forward,ondevice.skip_forward,
+my computer sleep,None,
+nashville humane society rover please,None,
+Navigate me to sears.com,GetRoute,places.place_name->sears.com;
+Navigate to ancestry.com,GetRoute,
+Navigate to lync outlook.com,None,
+Navigate to montgomery alabama backpage please,GetRoute,AbsoluteLocation->montgomery alabama;places.place_type->backpage;
+Navigate to the menu,GetRoute,
+Navigate to website logitech,None,
+need to enter a digit,communication.press_key,
+need to go to cracker barrel but 7th ave in closed for construction,GetRoute,places.place_name->cracker barrel;AbsoluteLocation->7th ave;places.open_status->closed;places.avoid_route->construction;
+Never mind go back,None,
+New high priority message for Paul,SendEmail,communication.message_category->high priority;communication.contact_name->Paul;
+next note please,note.show_next,
+next one please,None,
+Next please,None,
+Next song please,ondevice.skip_forward,
+No doubt Okay,None,
+not tomorrow please,None,
+ohh finished,None,
+ojai apple picking,None,
+ok thanks,None,
+okay,None,
+Okay for now,None,
+Okay I am confirming,None,
+Okay I chose this direction,None,
+Okay I got it,None,
+okay i hear that,None,
+open camera one .,None,
+open display plus brightness,ondevice.open_setting,ondevice.setting_type->brightness;
+open edmundo,None,
+Open fitbit and log weight entry,None,
+open go to sleep,None,
+Open my apps,None,
+open my facebook id Marlen Max,None,
+open my location,ondevice.open_setting,ondevice.setting_type->location;
+open my notes,None,
+Open Network Settings,ondevice.open_setting,ondevice.setting_type->Network;
+Open nintendo 3ds hulk game,None,
+Open Onedrive,None,
+Open other reminders,None,
+Open pbs kids please,None,
+open program firefox,None,
+Open settings and access different backgrounds,ondevice.open_setting,
+open snapchat,None,
+open speed dial,communication.query_speeddial,
+open start menu,None,
+Open the alarm please,alarm.find_alarm,
+Open the breaking bad season six,None,
+Open the volume music settings right now,ondevice.open_setting,ondevice.setting_type->volume;
+Open this one,None,
+open torch pro,None,
+open work reminder,reminder.find_reminder,reminder.reminder_text->work;
+outlook,None,
+pair Bluetooth signal to my laptop,OnDevice.Settings.On,ondevice.setting_type->Bluetooth;
+Pair wifi signal with xbox please,None,
+pause current playlist,ondevice.pause,
+pause media now please,ondevice.pause,
+pause music for me please,ondevice.pause,
+pause please,ondevice.pause,
+pause the playing song please,ondevice.pause,
+payway please,None,
+perfect thank you,Communication_Confirm,
+phone be quiet for 5 minutes.,None,
+pick up the phone and answer,None,
+place reservation for greek tonight please,Places_CreateReservation,places.cuisine->greek;places.time->tonight;
+Places for cottage please,FindPlaces,places.place_type->cottage;
+Play augustana playlist,PlayMusic,Artist_Name->augustana;
+play bailando,PlayMusic,
+play bbc one,ondevice.ondevice_other,
+play dvd,None,
+Play elysium please,PlayMusic,Song_Name->elysium;
+play genre jazz,PlayMusic,ondevice.music_genre->jazz;
+Play go hard or go home by wiz Khalifa,PlayMusic,
+play into the sun,PlayMusic,
+play love me like you do,PlayMusic,
+play made in the usa,PlayMusic,
+play meneo,PlayMusic,
+Play music .,PlayMusic,
+play New Romantics,PlayMusic,Song_Name->New Romantics;
+Play oculus trailer please,PlayMusic,Artist_Name->oculus trailer;
+Play one of the movies in the theaters nowadays,None,
+play she sets the city on fire,PlayMusic,Song_Name->she sets the city on fire;
+Play the american movie,None,
+Play the next album,ondevice.skip_forward,
+Play the next selection,ondevice.skip_forward,
+Play the next song,ondevice.skip_forward,
+Play the previous one,ondevice.skip_back,
+Play the Previous track,ondevice.skip_back,
+play track again,ondevice.repeat,
+play videos please,ondevice.ondevice_other,ondevice.app_name->videos;
+please add music,None,
+please cancel my uber reservation at 5,Places.Book_Public_Transport,places.transportation_company->uber;places.time->5;
+please delete some items off my reminder list,reminder.delete_reminder,
+please display the application bar,None,
+please display the context menu,Places_GetMenu,
+Please do restarting,None,
+please file a bug for me,None,
+please find the most recent song by adele,None,
+please forward the last call,communication.communication_other,
+Please give me the one before,None,
+please go next,None,
+please help,None,
+please help me,None,
+please help me i want to finish,None,
+Please I want to leave the current party,None,
+Please invite Micheal to join me in playing Gears of war 3,None,
+Please just delete my meeting,Calendar.Delete_Calendar_Entry,
+Please let me do set up,None,
+please let them know i am driving and that this is an auto response,Comunication_IgnoreIncoming,communication.message->i am driving and that this is an auto response;
+Please login,None,
+please make my phone ring,None,
+please order 4 tickets to the brian wilson concert at the paramount theatre,None,
+please pair for me wifi to my tablet,None,
+please pause barracuda,ondevice.pause,Song_Name->barracuda;
+Please pause cody,ondevice.pause,Song_Name->cody;
+Please play bleed,PlayMusic,Song_Name->bleed;
+Please power off,None,
+Please quit,None,
+please rate Golden Corral,Places_Rate,places.place_name->Golden Corral;
+Please read my latest text from James,Comunication_Synthesis,communication.order_ref->latest;communication.message_type->text;communication.from_contact_name->James;
+please read my recent emails,Comunication_Synthesis,communication.time->recent;communication.message_type->emails;
+please read text,Comunication_Synthesis,
+Please read Trip notes,note.read_aloud,note.title->Trip;
+please reboot,None,
+Please record cardio,None,
+Please record cardio for me,None,
+Please record exercise notes,note.create_note,
+Please record from now,None,
+Please record my pushups in a note,note.create_note,note.note_text->pushups;
+Please record weight,None,
+please redial . thanks,Communication_Redial,
+please replay,ondevice.repeat,
+Please replay it for me,ondevice.repeat,
+Please restart the search,None,
+Please resume music,ondevice.resume,
+please return to earpiece,communication.speakerphone_off,
+please ring my phone,MakeCall,
+please ring phone,MakeCall,
+please send a low importance marked email to Gary,SendEmail,communication.message_category->low importance;communication.contact_name->Gary;
+Please show me translation of Joy in Dutch,None,
+please show previous .,None,
+please show the next note,note.show_next,
+Please six speed dial,communication.set_speeddial,
+Please snooze suntan reminder,reminder.create_single_reminder,
+please stop call forwarding,Communication_Forwarding_Disable,
+please stop the player,ondevice.pause,
+please tap 5,None,
+Please track taxi,Places.Book_Public_Transport,places.transportation_type->taxi;
+please turn on 3G,None,
+Please unmute the music,None,
+Please unsnap ustream,None,
+Please volume minus,ondevice.ondevice_other,
+Please Volume up 10,None,
+popular defiance ohio music,None,
+Post 10 for Suntan city on yelp,Places_Rate,places.rating->10;places.place_name->Suntan city;
+postpone my eight thirty reminder to nine thirty,reminder.change_reminder,reminder.original_start_time->eight thirty;reminder.start_time->nine thirty;
+press 8,communication.press_key,
+press one pound,communication.press_key,communication.key->one pound;
+previous one please,None,
+previous please,None,
+previous song play please,ondevice.skip_back,
+previous text please,Communication_ShowPrevious,
+provide eat n parks breakfast menu,Places_GetMenu,places.place_name->eat n parks;places.meal_type->breakfast;
+provide me a spanish translation for How old are you,None,
+Provide me by toronto weather please,Weather.CheckWeather,weather.absolute_location->toronto;
+public transportation to the hospital?,Places_Map_Question,places.transportation_type->public transportation;AbsoluteLocation->the hospital;
+Pull up my appointment find out how much time i have before my next appointment,calendar.time_remaining,calendar.start_time->next;
+pull up my voice mails,communication.call_voice_mail,
+purchase movie tickets,None,
+purchase tickets for seahawks game saturday,None,
+purple cafe kirkland reservations,Places_CreateReservation,places.place_name->purple cafe;AbsoluteLocation->kirkland;places.amenities->reservations;
+put call forwarding on,Communication_Forwarding_Enable,
+put her through,Communication_AnswerPhone,
+put this song on repeat,ondevice.repeat,
+Put to sleep reminder to cut grass on Thursday,reminder.create_single_reminder,reminder.reminder_text->sleep;reminder.start_date->Thursday;
+quickest route to pizza hut,GetRoute,places.prefer_route->quickest;places.place_name->pizza hut;
+quik trip milton wisconsin please,GetRoute,places.prefer_route->quik;AbsoluteLocation->milton wisconsin;
+quit giving me directions,Places.Exit,
+Quit help,None,
+quit please,None,
+raise the brightness by 50%,ondevice.open_setting,ondevice.setting_type->brightness;
+rate Great Clips for me.,Places_Rate,places.place_name->Great Clips;
+rate Old Time Buffet,Places_Rate,places.place_name->Old Time Buffet;
+Rate Walmart on Yelp.com.,None,
+read it,None,
+read latest nokia email,Comunication_Synthesis,communication.order_ref->latest;communication.source_platform->nokia;communication.message_type->email;
+read locations,None,
+read loud email,Comunication_Synthesis,communication.message_type->email;
+Read meeting notes to me,note.read_aloud,note.title->meeting;
+Read my grocery list,note.read_aloud,note.title->grocery list;
+read my most recent email,Comunication_Synthesis,communication.order_ref->most recent;communication.message_type->email;
+read my new text message,Comunication_Synthesis,communication.message_category->new;communication.message_type->text;
+read my unopened sms,Comunication_Synthesis,communication.message_type->unopened sms;
+read new message,Comunication_Synthesis,
+read new messages,Comunication_Synthesis,
+read new text messages,Comunication_Synthesis,communication.message_type->text;
+Read out loud where the shops here are,Places_Synthesis,places.place_type->shops;
+read please,Comunication_Synthesis,
+read texts from Kyla Jack,Comunication_Synthesis,communication.message_type->texts;communication.from_contact_name->Kyla Jack;
+read the note appointments please,note.read_aloud,note.title->appointments;
+read the top 10 restaurants in the area,Places_Synthesis,places.results_number->10;places.place_type->restaurants;
+read them,Comunication_Synthesis,
+read then drive to there,Places_Synthesis,places.transportation_type->drive;
+read these places,Places_Synthesis,
+read what Greg Martin is texting me,Comunication_Synthesis,communication.message_type->Greg Martin is texting;
+reboot computer,None,
+reboot kindle,None,
+recall last number,Communication_Redial,
+recall most recent groccery list,None,
+Recall note 3 delete,None,
+record how heavy I am,None,
+record mileage for me please,None,
+Record my weight yesterday was 11 stone,None,
+Record that i had a nutella roll for lunch,None,
+record that I will not take my dinner today,None,
+Record that i worked out this morning.,None,
+record weight 145 pounds please,None,
+record weight 172 lbs please,None,
+record weight for me please,None,
+Record weight is 160 pounds please.,None,
+redial last,Communication_Redial,
+redial on speaker phone,Communication_Redial,communication.audio_device_type->speaker phone;
+redial please,Communication_Redial,
+reduce brightness please,ondevice.open_setting,ondevice.setting_type->brightness;
+reduce volume please,None,
+reliable contact from Martin to dad,Communication_AssignName,communication.from_contact_name->Martin;communication.from_relationship_name->dad;
+religious gifts kirkland wa please,FindPlaces,places.product->religious gifts;AbsoluteLocation->kirkland wa;
+remember fragrances,reminder.create_single_reminder,reminder.reminder_text->fragrances;
+remember poltergeist,reminder.create_single_reminder,reminder.reminder_text->poltergeist;
+remember to run errands,reminder.create_single_reminder,reminder.reminder_text->run errands;
+remember tomorrow,reminder.create_single_reminder,reminder.start_date->tomorrow;
+Remind me to listen to imagine dragons,reminder.create_single_reminder,reminder.reminder_text->listen to imagine dragons;
+remind me to take cabbage when I leave home,reminder.create_single_reminder,\N
+Reminder to call Henry,reminder.create_single_reminder,reminder.reminder_text->call Henry;
+reminder: return books at library,reminder.create_single_reminder,reminder.reminder_text->return books;reminder.implicit_location->library;
+Remove a calendar entry,Calendar.Delete_Calendar_Entry,
+remove my reminder for the grocery shopping this friday,reminder.delete_reminder,reminder.reminder_text->grocery shopping;reminder.start_date->this friday;
+Remove number 2 from my List of Ideas Note.,mystuff.find_my_stuff,mystuff.transform_action->Remove;mystuff.keyword->number 2;mystuff.data_type->Note;
+Remove the last entry,None,
+renton traffic please,Places_CheckTraffic,AbsoluteLocation->renton;
+repeat 10 times.,None,
+repeat again,None,
+repeat again please,None,
+repeat choice play,ondevice.repeat,
+repeat current playlist,ondevice.repeat,
+repeat genres please,ondevice.repeat,
+repeat it again,None,
+repeat last question please,None,
+repeat my name three times,None,
+repeat selection please,ondevice.repeat,
+repeat start time,Calendar.Change_Calendar_Entry,
+repeat that last joke,None,
+repeat that please,ondevice.ondevice_other,
+Repeat the last word again,None,
+replay back please,ondevice.repeat,
+replay one before the current playing song,ondevice.repeat,
+reply Martha with please call me i am driving,Comunication_IgnoreIncoming,communication.contact_name->Martha;communication.message->please call me i am driving;
+reply text,communication.send_text,
+Reservations at Hilton Paris please,Places_CreateReservation,places.place_name->Hilton Paris;
+reservations for firebirds,Places_CreateReservation,places.place_name->firebirds;
+Reserve a room at al boccalino,None,
+Reserve on pace bus transportation,Places.Get_Public_Transport_Schedule,places.transportation_company->pace;places.transportation_type->bus;
+reset,None,
+reset reminder,reminder.change_reminder,
+restart angry birds,None,
+restart laptop,ondevice.ondevice_other,
+restart my computer,None,
+Restart my Xbox,None,
+restart now,None,
+Restart please,ondevice.repeat,
+restart search,None,
+restart the machine,None,
+restarts phone,None,
+restaurants open right now,FindPlaces,places.place_type->restaurants;places.open_status->open;places.time->now;
+Resume episode please,None,
+resume playback for me please,ondevice.resume,
+resume the music,ondevice.resume,
+resume the song i was listening to,ondevice.resume,
+return please,None,
+ring Jack Fred please,MakeCall,communication.contact_name->Jack Fred;
+ring my phone,MakeCall,
+ring my phone .,MakeCall,
+ring phone please,MakeCall,
+run application,None,
+santa barbara maine postal please,None,
+Save Martin as my brother,Communication_AssignName,communication.contact_name->Martin;communication.relationship_name->brother;
+save Merry as my girlfriend,Communication_AssignName,communication.contact_name->Merry;communication.relationship_name->girlfriend;
+save screenshot to onenote,None,
+save speed dial five zero six seven one five three six six nine,MakeCall,communication.phone_number->five zero six seven one five three six six nine;
+Save that I weigh 145 today,None,
+Save the current note,note.create_note,
+save the date may 17 pictures party,Calendar.Create_Calendar_Entry,calendar.start_date->may 17;calendar.title->pictures party;
+Save this email address lose at win stream dot net,None,
+say my name,None,
+schaumburg covenant church schaumburg illinois please,FindPlaces,places.place_name->schaumburg covenant church;AbsoluteLocation->schaumburg illinois;
+schedule appointment for tomorrow please,Calendar.Create_Calendar_Entry,calendar.start_date->tomorrow;
+scratch shampoo from list,None,
+screen rotation off,OnDevice.Settings.Off,ondevice.setting_type->screen rotation;
+search dearham swimming pool timetable,GetHours,AbsoluteLocation->dearham;places.place_type->swimming pool;
+Search for hindi movies please,None,
+search for latest contacts,communication.find_contact,
+Search for meetings with Chris,Calendar.Find_Calendar_Entry,calendar.title->meetings with Chris;
+Search for the massage reminder,reminder.find_reminder,reminder.reminder_text->massage;
+Search for the nighttime TV show that Denzel Washington starred in .,None,
+search Machinima in the marketplace,None,
+search milkshake in the marketplace,None,
+search out blast in the marketplace,None,
+search romantic in the marketplace,None,
+search the marketplace for adobe,None,
+search the marketplace for wreck it ralph,None,
+search the store for carousel,None,
+search the store for sport,None,
+search the store for team fortress,None,
+search Zumba Fitness in the marketplace,None,
+sears appliance drop off please,None,
+seastar bellevue reservations please,Places_CreateReservation,places.place_name->seastar;AbsoluteLocation->bellevue;
+second one please,None,
+select item number ten,None,
+Select my current location,ShowMap,
+Select the 5th item,None,
+send a text message that i am driving,communication.send_text,communication.message->i am driving;
+send an email to jacob8547black@gmail.com,SendEmail,
+send birthday card to robert,None,
+send email hello,SendEmail,communication.message->hello;
+send lighter fluid to onenote,None,
+send more please,communication.communication_other,
+send text saying i am busy,Comunication_IgnoreIncoming,communication.message->i am busy;
+send text to this incoming caller,Comunication_IgnoreIncoming,
+septa bus please,None,
+set a reminder for may twenty fifth,reminder.create_single_reminder,reminder.start_date->may twenty fifth;
+set an alarm for tomorrow 10:00 PM,Set_Alarm,
+Set an event on edwardsville pa gym today,Calendar.Create_Calendar_Entry,AbsoluteLocation->edwardsville pa;calendar.implicit_location->gym;calendar.start_date->today;
+Set appointment at lee nails,Calendar.Create_Calendar_Entry,calendar.title->appointment at lee nails;
+set brightness to medium,ondevice.open_setting,ondevice.setting_type->brightness;
+set call forwarding off,Communication_Forwarding_Disable,
+set lights bright,OnDevice.Settings.Lights.On,
+set lights out bedroom,None,
+Set mamma on key one,None,
+set speaker to normal,communication.speakerphone_off,communication.audio_device_type->speaker;
+set speed dial,communication.set_speeddial,
+set speed dial off,communication.query_speeddial,
+set speed dial two,communication.set_speeddial,communication.speed_dial->two;
+set up speed dial,communication.set_speeddial,
+settings phone,ondevice.open_setting,
+Setup please,None,
+show all comedy shows,None,
+show all programming on tv cast,None,
+show average rainfall for boise,weather.check_weather_facts,weather.weather_condition->rainfall;weather.absolute_location->boise;
+show map for indiana dunes dogs allowed,ShowMap,places.place_name->indiana dunes;places.amenities->dogs allowed;
+Show me a list of awesome middle schools,None,
+Show me a restaurant that is kid friendly,FindPlaces,places.place_type->restaurant;places.atmosphere->kid friendly;
+show me all the coffee shops nearby within 5 miles and their phone numbers,FindPlaces,places.place_type->coffee shops;places.nearby->nearby;places.distance->within 5 miles;
+show me battery,None,
+Show me cat videos,None,
+show me concert tickets for the century link field stadium please,None,
+show me detailed instructions for filing a bug,None,
+show me detour,None,
+show me directions from Seattle,GetRoute,
+show me drama but do not include kevin spacey,None,
+Show me driving directions from akaka falls,GetRoute,places.transportation_type->driving;places.from_place_name->akaka falls;
+Show me five star games or pc,None,
+show me how to file a bug,None,
+show me map of Sydney,ShowMap,
+show me more help topics,None,
+show me my wifi signal strength,ondevice.open_setting,ondevice.setting_type->wifi;
+Show me nationwide insurance contact number,GetPhoneNumber,places.place_name->nationwide insurance;
+show me new chinese eateries,FindPlaces,places.atmosphere->new;places.place_type->chinese eateries;
+show me regal cinemas simi valley showtimes,None,
+show me rv park reviews,places.get_reviews,places.place_type->rv park;
+show me streetsborough ohio accidents,Places.Check_Accident,AbsoluteLocation->streetsborough ohio;
+show me the 1 rated programs,None,
+Show me the application bar,None,
+show me the call forwarding settings,communication.forwarding_status,
+Show me the marquee cinemas new hartford ny showtimes,None,
+show me the nearest hospitals in indore,FindPlaces,
+show me the next,None,
+Show me the next five places,places.show_next,places.time->next;places.results_number->five;
+Show me the next four places,places.show_next,places.results_number->four;
+show me the next message,communication.show_next,
+show me the next note,note.show_next,
+show me the next please,None,
+Show me the next six places,places.show_next,places.results_number->six;
+Show me the next three,places.show_next,places.results_number->three;
+show me the next three .,places.show_next,places.results_number->three;
+Show me the next three places,places.show_next,places.results_number->three;
+Show me the next two places,places.show_next,places.results_number->two;
+show me the number of my steps in a 500 meter walk,GetPhoneNumber,AbsoluteLocation->500 meter walk;
+show me the opening hours of smokey park,GetHours,places.open_status->opening;places.place_name->smokey park;
+Show me the previous,None,
+show me the previous text,Communication_ShowPrevious,
+show me the reminders,reminder.find_reminder,
+show me the road to the church,GetRoute,places.place_type->church;
+Show me the route to west avenue Miami Beach,GetRoute,AbsoluteLocation->west avenue Miami Beach;
+Show me the top news,None,
+Show me the traffic at my area,Places_CheckTraffic,
+show me the traffic from work to home,Places_CheckTraffic,places.from_place_type->work;places.place_type->home;
+show me the traffic right now from work to naperville,Places_CheckTraffic,places.time->now;places.from_place_type->work;AbsoluteLocation->naperville;
+show me the tv lists in england,None,
+Show me the walking dead season four,None,
+show me your suggested menu for lunch,Places_GetMenu,places.meal_type->lunch;
+show movies starring gary oldman,None,
+show my program listing,None,
+show second contact,communication.find_contact,communication.position_ref->second;
+show the next message,communication.show_next,
+show the next note,note.show_next,
+Show the next please,None,
+Show the previous please,ondevice.skip_back,
+shut down,None,
+Shut down Bluetooth,OnDevice.Settings.Off,ondevice.setting_type->Bluetooth;
+shut down my work computer,None,
+Shut down the device,None,
+shut up,None,
+Shut up.,None,
+shut you down,None,
+shutdown,None,
+sigillo cellars tasting hours please,GetHours,places.place_name->sigillo cellars;places.amenities->tasting;
+Sign in as Paul,None,
+Sign in as Peter,None,
+sign into my gmail account,None,
+sign out of facebook please,None,
+silence the phone,None,
+silicon valley kids dentist reviews,places.get_reviews,places.place_name->silicon valley kids dentist;
+six speed dial please,communication.set_speeddial,communication.speed_dial->six;
+skip back a song,ondevice.skip_back,
+skip pet shop boys please,None,
+skip this one,ondevice.skip_forward,
+Skip this song please,ondevice.skip_forward,
+skype Alex please,MakeCall,communication.source_platform->skype;communication.contact_name->Alex;
+skype Martha please,MakeCall,communication.source_platform->skype;communication.contact_name->Martha;
+Sleep,None,
+Sleep mode please,None,
+Sleep please,None,
+Snap game DVR .,None,
+snap play my music,None,
+snooze appointment,alarm.snooze,
+snowshoe reservations please,Places_CreateReservation,places.place_name->snowshoe;
+soda popinski sf,None,
+sounds good,None,
+speak trip note for me please,note.read_aloud,note.title->trip;
+speaker mode off,communication.speakerphone_off,communication.audio_device_type->speaker;
+speaker mode on please,Communication_EnableSpeaker,communication.audio_device_type->speaker;
+speaker off please,communication.speakerphone_off,communication.audio_device_type->speaker;
+speed dial list,communication.query_speeddial,
+speed dial now please,MakeCall,
+spotify pause please,None,
+start a message about lyrics,SendEmail,communication.email_subject->lyrics;
+Start a party with Chris,Calendar.Create_Calendar_Entry,calendar.title->party with Chris;
+Start a party with Fred,note.create_note,note.note_text->party with Fred;
+Start a party with James,Calendar.Create_Calendar_Entry,calendar.title->party with James;
+Start a party with Lee,None,
+Start a party with Martha,SendEmail,communication.contact_name->Martha;
+Start a party with Max,None,
+Start a party with Patrick,None,
+Start a party with Paul,Calendar.Create_Calendar_Entry,calendar.title->party;calendar.contact_name->Paul;
+Start a party with Rony,None,
+Start a party with Sarah .,note.create_note,note.note_text->party with Sarah;
+start master bedroom light .,None,
+start menu,None,
+Start recording my exercise notes,None,
+start speaker . cancel,None,
+Start the breaking news,None,
+Start the Playlist of name 141819,PlayMusic,ondevice.music_playlist->141819;
+stop any new appointments,Calendar.Find_Calendar_Entry,
+stop call forwarding,Communication_Forwarding_Disable,
+stop it you are really annoying,None,
+stop listening,None,
+stop movies,None,
+Stop Pandora now please,None,
+stop playing with life,None,
+stop please,None,
+Stop reading the note,note.read_aloud,
+Stop saying that please,None,
+stop the music,ondevice.pause,
+Stop the playing music,ondevice.pause,
+stop the track,ondevice.pause,
+Stop using wifi .,OnDevice.Settings.Off,ondevice.setting_type->wifi;
+Sure I confirm,None,
+sure thing man,None,
+switch off,None,
+switch on bluetooth,OnDevice.Settings.On,ondevice.setting_type->bluetooth;
+Switch on Wifi .,OnDevice.Settings.On,ondevice.setting_type->Wifi;
+switch to calculator,None,
+switch to excel,None,
+switch to facebook,None,
+switch to ie,None,
+switch to league of legends,None,
+Switch to local news,None,
+switch to music,None,
+Switch to party chat .,None,
+Switch to the america canadian tv show,None,
+Switch to the app,None,
+switch to word,None,
+sync video with my youtube account,None,
+tacoma please,None,
+take a picture with smart cam,None,
+take a screenshot to onenote,None,
+Take bus to Willow Knolls Cinemas,GetRoute,places.transportation_type->bus;places.place_name->Willow Knolls Cinemas;
+take butter off of my shopping list .,note.create_note,note.note_text->take butter off;note.title->shopping list;
+take lemons and onions off my shopping list,note.create_note,note.note_text->take lemons and onions off;note.title->shopping list;
+take me to a tv grid of program listings,None,
+take me to home screen,None,
+take me to my game farmville,None,
+take Shoes from Target shopping list,note.create_note,note.title->Shoes from Target shopping list;
+Target phone number.,GetPhoneNumber,places.place_name->Target;
+taxi to wall street please,Places.Book_Public_Transport,places.transportation_type->taxi;AbsoluteLocation->wall street;
+Tell me apple store hours please,GetHours,places.place_name->apple store;
+Tell me how many pushups to reach my target?,GetDistance,places.product->pushups;places.place_name->target;
+Tell me the bus schedule kirkland 244,Places.Get_Public_Transport_Schedule,places.transportation_type->bus;places.public_transportation_route->kirkland 244;
+Tell me the event details,None,
+Tell me the flights schedule for Thursday,None,
+Tell me the options of airplanes to visit paris,GetRoute,places.transportation_type->airplanes;AbsoluteLocation->paris;
+tell me the petco lynnwood hours,GetHours,places.place_name->petco;AbsoluteLocation->lynnwood;
+Tell me what are the most popular jonas brors albums,None,
+Tell me what is the best place to eat dinner in hyderabad,FindPlaces,places.rating->best;places.service_provided->eat;places.meal_type->dinner;AbsoluteLocation->hyderabad;
+temperature of delhi in celsius please,Weather.CheckWeather,weather.absolute_location->delhi;weather.temperature_unit->celsius;
+text 426574 at 12 : 12,communication.send_text,communication.phone_number->426574 at 12 : 12;
+text caller stating i am busy,Comunication_IgnoreIncoming,communication.message->i am busy;
+text Carolina test,communication.send_text,communication.contact_name->Carolina;communication.message->test;
+text Jeff Carlos in twenty minutes,communication.send_text,communication.contact_name->Jeff Carlos;
+text Martin Kelly,communication.send_text,communication.contact_name->Martin Kelly;
+that was good. Rate the new restaurant with 3 stars .,None,
+The cinema opening hours please,GetHours,places.place_type->cinema;places.open_status->opening;
+The closest publication please,FindPlaces,places.nearby->closest;places.place_type->publication;
+The first search result please,None,
+The good times tv show please,None,
+The meeting will last for one hour,Calendar.Create_Calendar_Entry,calendar.duration->one hour;
+the next please,None,
+The previous track please,ondevice.skip_back,
+The previous video please,None,
+The workshop will last for 10 hours,Calendar.Create_Calendar_Entry,calendar.title->workshop;calendar.duration->10 hours;
+tickets for nine inch nails in copenhagen,None,
+tickets for toronto raptors please,None,
+tickets for wicked please,None,
+tickets to see hair at the hollywood bowl,None,
+timbrekitchen reservation,None,
+To buy list,reminder.create_single_reminder,reminder.reminder_text->buy list;
+Trace my location,Trace_Location,
+Translate for me Schedule a meeting in French,None,
+Turn Bluetooth off .,OnDevice.Settings.Off,ondevice.setting_type->Bluetooth;
+Turn Bluetooth on .,OnDevice.Settings.On,ondevice.setting_type->Bluetooth;
+turn brightness up,ondevice.open_setting,ondevice.setting_type->brightness;
+turn dimmer off,None,
+Turn down brightness,ondevice.ondevice_other,ondevice.setting_type->brightness;
+turn down the volume,ondevice.ondevice_other,
+Turn off ac please,OnDevice.Settings.AC.Off,
+turn off call forwarding,Communication_Forwarding_Disable,
+turn off fan,OnDevice.Settings.Fan.Off,
+turn off laptop,None,
+turn off lights,OnDevice.Settings.Lights.Off,
+Turn off my mobile,OnDevice.Settings.Mobile.Off,
+turn off song,ondevice.pause,
+turn off the device,None,
+Turn off the music,ondevice.pause,
+Turn off the power,OnDevice.Settings.Power.Off,
+turn off venice lamp,OnDevice.Settings.Lights.Off,
+turn off wifi,OnDevice.Settings.Off,ondevice.setting_type->wifi;
+turn on call forwarding,Communication_Forwarding_Enable,
+Turn on camera,None,
+turn on fan,OnDevice.Settings.Fan.On,
+turn on lights,OnDevice.Settings.Lights.On,
+Turn on Narrator,None,
+turn on quiet time,OnDevice.Settings.On,ondevice.setting_type->quiet time;
+Turn on the hands - free mode,Communication_EnableSpeaker,communication.audio_device_type->hands - free;
+Turn on the hands-free mode,Communication_EnableSpeaker,communication.audio_device_type->hands-free;
+turn sound down,None,
+Turn the bluetooth on and pair it with laptop,None,
+Turn the fan to high,None,
+turn the music off,None,
+turn thermostat on 70 .,None,
+Turn to bbc news please,None,
+turn up brightness,ondevice.open_setting,ondevice.setting_type->brightness;
+turn up my brightness,ondevice.open_setting,ondevice.setting_type->brightness;
+turn up the brightness to fifty,ondevice.open_setting,ondevice.setting_type->brightness;
+turn up the brightness to seventy five please,ondevice.open_setting,ondevice.setting_type->brightness;
+turn volume up,None,
+type in notepad,None,
+uani street,None,
+undo fold laundry reminder,reminder.delete_reminder,reminder.reminder_text->fold laundry;
+unmute the music please,None,
+unmute the sound,None,
+unmute the volume,None,
+Unmute volume,ondevice.open_setting,ondevice.setting_type->volume;
+unpause the paused music,ondevice.resume,
+update contact from Martha to sister,Communication_AssignName,communication.from_contact_name->Martha;communication.from_relationship_name->sister;
+update note of number one,note.create_note,note.title->update;note.note_text->number one;
+update reminder for courthouse,reminder.change_reminder,reminder.reminder_text->courthouse;
+update weight please,None,
+usc vs notre dame tickets please,None,
+use call forwarding,Communication_Forwarding_Enable,
+use text on incoming call,Comunication_IgnoreIncoming,
+View Tom Chros availability,Calendar.Check_availability,calendar.contact_name->Tom Chros;
+vine app on windows phone,None,
+Visit 209 Nashville Gym tomorrow morning,None,
+voice activated reading of appointments this week,Calendar.Find_Calendar_Entry,calendar.start_date->this week;
+voice snap take a picture of blue,None,
+voicesnap take a picture of my screen,None,
+voicesnap take a picture of orange,None,
+voicesnap take a picture of thermometer case,None,
+Volume down 20 please,None,
+volume down please,None,
+volume low please,None,
+waffles recipe is my new note to be created,note.create_note,note.note_text->waffles recipe is my new note to be created;
+wait never mind i just told you never mind,None,
+want to know my phone battery status,None,
+watch dogs demo,None,
+we finished our last task,None,
+weaver st from home,GetRoute,places.place_name->weaver st;places.from_place_type->home;
+what are some popular japanese movies,None,
+what are the most popular Korean movies ?,None,
+what can i say ?,None,
+what is on television now,None,
+What is the bus schedule today in dawsonville,Places.Get_Public_Transport_Schedule,places.transportation_type->bus;places.date->today;AbsoluteLocation->dawsonville;
+what is the current time in Newyork,GetTime,
+what is the next one ?,None,
+What is the phone number for kroger in gainesville ga,GetPhoneNumber,places.place_name->kroger;AbsoluteLocation->gainesville ga;
+What is the rain volume in sonoma county ?,Weather.CheckWeather,weather.weather_condition->rain;weather.absolute_location->sonoma county;
+what is the weather conditions in indore?,Weather.CheckWeather,
+What is the weather in redmond ?,Weather.CheckWeather,weather.absolute_location->redmond;
+what movie is playing right now on spike tv,None,
+what movies has jerry bruckheimer produced,None,
+What movies in theater are now displaying ?,None,
+what reminders do i have tomorrow ?,reminder.find_reminder,reminder.start_date->tomorrow;
+what reminders do i have tomorrow?,reminder.find_reminder,reminder.start_date->tomorrow;
+what routes avoid tolls when going to outback,GetRoute,places.avoid_route->tolls;places.place_name->outback;
+What shall I eat today for lunch ?,FindPlaces,places.date->today;places.meal_type->lunch;
+what tickets are still available at cinemark,None,
+what time does sainsburys longbridge open tomorrow,GetHours,places.place_name->sainsburys;AbsoluteLocation->longbridge;places.open_status->open;places.date->tomorrow;
+what time is it in seattle,GetTime,
+what to wear in march in california,weather.check_weather_facts,weather.date_range->march;weather.absolute_location->california;
+what wifi network am i connected to,None,
+whatsapp Manuel Greg hello,None,
+when does kirkland costco close today,GetHours,AbsoluteLocation->kirkland;places.place_name->costco;places.open_status->close;places.date->today;
+when dominoz pizza gets open in indore,GetHours,
+when is a good day to die hard playing,None,
+when is frozen playing,None,
+when is Paul available?,Calendar.Check_availability,calendar.contact_name->Paul;
+when is the Central Library in indore is open,GetHours,
+when library in indore is close,GetHours,
+when will my taxi arrive ?,Places_Ensure_TravelTime,places.transportation_type->taxi;
+where can I buy football tickets,None,
+where can i go to have fun,None,
+where i am driving right now,ShowMap,places.transportation_type->driving;places.time->now;
+Where I can find a quiet cafe for studying ?,FindPlaces,places.atmosphere->quiet;places.place_type->cafe;
+Where I can find barbeque tacos ?,FindPlaces,places.product->barbeque tacos;
+Where I can find fishinger road dance class ?,FindPlaces,AbsoluteLocation->fishinger road;places.service_provided->dance class;
+where is my phone,None,
+Where is my taxi location ?,FindPlaces,places.transportation_type->taxi;
+where is my windows phone,None,
+where is nearest half price books,FindPlaces,places.nearby->nearest;places.price_range->half price;places.product->books;
+Which contact is on speed dial one ?,MakeCall,communication.speed_dial->one;
+which one serves steak,None,
+who can I chat with ?,None,
+who is online ?,None,
+whose birthday is today,calendar.find_calendar_who,calendar.title->birthday;calendar.start_date->today;
+wifi connectivity please,None,
+will it be raining in ranchi,CheckWeather_Question,weather.weather_condition->raining;weather.absolute_location->ranchi;
+will it rain this weekend,CheckWeather_Question,weather.weather_condition->rain;weather.date_range->this weekend;
+will it snow today,CheckWeather_Question,weather.weather_condition->snow;weather.date_range->today;
+Would you please make youtube music louder,None,
+Write a note to Carolina asking her to check her inbox,note.create_note,note.note_text->Carolina asking her to check her inbox;
+yeah l just finished this one,None,
+Yeah ohh I confirm,None,
+Yelp 5 stars for Fridays,None,
+yelp best reviews for high schools,places.get_reviews,places.rating->best;places.place_type->high schools;
+yep,None,
+yep agreed,None,
+yes,None,
+yes call,MakeCall,
+yes i saw,None,
+yes.,None,
+you need to be louder,None,
