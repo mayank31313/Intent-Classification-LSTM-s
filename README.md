@@ -2,7 +2,6 @@
 
 Hello there,
     Deep Learning for Java <a href="https://deeplearning4j.org/">link</a><br>
-    Libs for the Language Classifier: <a href="https://drive.google.com/drive/folders/1tTu_io3kJ1UhtK9fb7Ejsbx9v81tWBpF?usp=sharing">link</a>
     
     
     Word2Vec vectorModel = WordVectorSerializer.readWord2VecModel("M:\\Artificial Intelligence\\Datasets\\word2vec.txt"); // Word2Vec Path
