@@ -2,7 +2,7 @@
 
 Hello there,
     Deep Learning for Java <a href="https://deeplearning4j.org/">link</a><br>
-    
+    Word2Vectors <a href="https://drive.google.com/open?id=1216vROaeWkTvtkeAdJi-21uW93kTrHAP">Click Here...</a>
     
     Word2Vec vectorModel = WordVectorSerializer.readWord2VecModel("M:\\Artificial Intelligence\\Datasets\\word2vec.txt"); // Word2Vec Path
         TokenizerFactory tokenizerFactory = new DefaultTokenizerFactory();
